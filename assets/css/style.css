@@ -283,8 +283,6 @@ h6 {
     background: url("../img/hero-bg-mobile.jpg") top center;
     background-size: cover;
   }
-
-@media (max-width: 768px) {
   #hero h1 {
     font-size: 28px;
     line-height: 36px;
@@ -296,6 +294,19 @@ h6 {
     margin-bottom: 30px;
   }
 }
+
+@media only screen and (max-width: 480px) {
+  #hero h1 {
+    font-size: 22px;
+    line-height: 30px;
+  }
+  
+  #hero p {
+    font-size: 18px;
+    margin-bottom: 30px;
+  }
+}
+
 
 /*--------------------------------------------------------------
 # Sections General
